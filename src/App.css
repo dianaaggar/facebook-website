@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: lightgray;
+}
+nav{
+  border: 2px solid red;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1876f2;
+  padding: 5px;
+}
+.logo{
+  width: 150px;
+  margin-right: 50px;
+}
+.container {
+  display: flex; 
+}
+.leftcontainer{
+  height: 800px;
+  border: 2px solid blue;
+  width: 30%;
+}
+.rightcontainer{
+  border: 2px solid green;
+  height: 800px;
+  width: 70%;
+
+}
