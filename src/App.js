@@ -23,6 +23,7 @@ import kenny from './images/kenny.png';
 import kely from './images/kely.png';
 import stan from './images/stan.png';
 import wendy from './images/wendy.png';
+import location from './images/location.png';
 
 function App() {
   return ( 
@@ -59,6 +60,7 @@ function App() {
         <a href="#"><img src={marketplace} alt=""  />Marketplace</a>
         <a href="#"><img src={events} alt=""  />Events</a>
         <a href="#"><img src={group} alt=""  />Groups</a>
+        <a href="#"><img src={location} alt=""  />Locations</a>
         <a href="#"><img src={pages} alt=""  />Pages</a>
         <a href="#"> See More</a>
         </div>
